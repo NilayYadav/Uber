@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14B263E2B00DD8F007AB1E8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B263D2B00DD8F007AB1E8 /* LocationManager.swift */; };
 		A1D2B33A2B00C1D5002B76E2 /* UberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D2B3392B00C1D5002B76E2 /* UberApp.swift */; };
 		A1D2B33E2B00C1D6002B76E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D2B33D2B00C1D6002B76E2 /* Assets.xcassets */; };
 		A1D2B3412B00C1D6002B76E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D2B3402B00C1D6002B76E2 /* Preview Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A14B263D2B00DD8F007AB1E8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A14B263F2B00DE93007AB1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A1D2B3362B00C1D5002B76E2 /* Uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D2B3392B00C1D5002B76E2 /* UberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberApp.swift; sourceTree = "<group>"; };
 		A1D2B33D2B00C1D6002B76E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		A1D2B3382B00C1D5002B76E2 /* Uber */ = {
 			isa = PBXGroup;
 			children = (
+				A14B263F2B00DE93007AB1E8 /* Info.plist */,
 				A1D2B3472B00C1E6002B76E2 /* App */,
 				A1D2B3482B00C1F8002B76E2 /* Core */,
 				A1D2B3492B00C21B002B76E2 /* Extensions */,
@@ -106,6 +110,7 @@
 		A1D2B34B2B00C228002B76E2 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A14B263D2B00DD8F007AB1E8 /* LocationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14B263E2B00DD8F007AB1E8 /* LocationManager.swift in Sources */,
 				A1D2B33A2B00C1D5002B76E2 /* UberApp.swift in Sources */,
 				A1D2B3512B00C2D4002B76E2 /* UberMapViewRepresentable.swift in Sources */,
 				A1D2B34F2B00C25C002B76E2 /* HomeView.swift in Sources */,
@@ -334,6 +340,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Uber/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uber/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow Uber to acesss your location to find you the ride";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -362,6 +370,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Uber/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Uber/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow Uber to acesss your location to find you the ride";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
